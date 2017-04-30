@@ -1,0 +1,19 @@
+{
+  "name": "baltijas_autoserviss",
+  "version": "1.0.0",
+  "description": "baltijas autoserviss",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edgars Mjasnikovs",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}
