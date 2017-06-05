@@ -42,6 +42,8 @@ gulp.task('move-files', () => {
 		.pipe(gulp.dest('./public/'))
 })
 
+gulp.task('build', ['move-files', 'minify-html', 'minify-css'])
+
 gulp.task('server', ['connect', 'watch'])
 
 gulp.task('default', ['connect', 'watch'])
