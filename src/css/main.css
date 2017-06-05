@@ -25,16 +25,16 @@ body, html {
 }
 
 .bgimg-1 {
-  background:url("/images/IMG_7784.jpg") 100% 30% no-repeat !important;
+  background:url("/images/IMG_7776min.jpg") 100% 41% no-repeat !important;
   background-size: cover!important;
-  height: 25%;
+  height: 35%;
   margin-bottom: 5%;
 }
 
 .bgimg-2 {
-  background:url("/images/IMG_7778.jpg") 100% 50% no-repeat !important;
+  background:url("/images/IMG_7784min.jpg") 100% 35% no-repeat !important;
   background-size: cover!important;
-  height: 25%;
+  height: 35%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
