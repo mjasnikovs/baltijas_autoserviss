@@ -38,7 +38,7 @@ const filesToCopy = [
 ]
 
 gulp.task('move-files', () => {
-	return gulp.src(filesToMove, {base: './'})
+	return gulp.src(filesToCopy, {base: './'})
 		.pipe(gulp.dest('./public/'))
 })
 
